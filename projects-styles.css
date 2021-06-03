@@ -1,0 +1,37 @@
+#projects {
+    position: relative;
+    top: 15vh;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto;
+    margin: 0 5%;
+}
+
+.proj-container {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 5px 10px #888888;
+}
+
+.github-link {
+    background-color: #313131;
+    font-size: 20px;
+    width: 110%;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.proj-title {
+
+}
+
+.write-up {
+
+}

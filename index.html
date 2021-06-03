@@ -12,6 +12,10 @@
         <link rel='stylesheet' href='header.css'>
         <link rel='stylesheet' href='footer.css'>
 
+        <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-database.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-analytics.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://smtpjs.com/v3/smtp.js"></script>
         
@@ -51,7 +55,26 @@
                 </div>
                 <div class="about-content">
                     <div class='contact-me content-container'>
-                        <form action='contact.php'>
+                        <h1>Feel Free to Contact Me</h1>
+                        <p>
+                            I am looking for a job or internship related to software development, software engineering, 
+                            data science, or most anything STEM related. I am a hard worker and am eager to learn. Later 
+                            in life I hope to push the boundaries of technology and innovate. 
+                        </p>
+                        <br>
+                        <div class='al'>
+                            <h3><strong>Full Name</strong></h3>
+                            <p>Raymond Leo Welgosh</p>
+                            <h3><strong>Date Of Birth</strong></h3>
+                            <p>October 13, 2003</p>
+                            <h3><strong>Email</strong></h3>
+                            <p>raymond.welgosh@gmail.com</p>
+                        </div>
+                        <br>
+                        <br>
+                        <a class='email-but' href='mailto:raymond.welgosh@gmail.com'>Email Me</a>
+
+                        <!-- <form action='contact.php'>
                             <label for="fname">First Name</label>
                             <input type="text" id="fname" name="firstname" placeholder="First name">
 
@@ -65,7 +88,7 @@
                             <textarea id="message" name="message" placeholder="" style="height:200px; resize: none;"></textarea>
                         
                             <input type="submit" value="Submit">
-                        </form>
+                        </form> -->
                     </div>
                     <div class='skills-list content-container'>
                         <ul class="skill-bars">
@@ -144,6 +167,10 @@
                         </svg>
                     </div>
                 </button>
+
+                <div style='width: 100%;'>
+                    <a class='proj-but' href='projects.html'>See All Projects</a>
+                </div>
             </div>
         </div>
 
@@ -166,13 +193,6 @@
         <script>
             AOS.init();
         </script>
-
-        <!-- The core Firebase JS SDK is always required and must be listed first -->
-        <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
-
-        <!-- TODO: Add SDKs for Firebase products that you want to use
-        https://firebase.google.com/docs/web/setup#available-libraries -->
-        <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-analytics.js"></script>
 
         <script>
             // Your web app's Firebase configuration

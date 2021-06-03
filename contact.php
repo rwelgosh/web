@@ -29,9 +29,7 @@
         
         $email_body .= "</div>";
     
-        $headers  = 'MIME-Version: 1.0' . "\r\n"
-        .'Content-type: text/html; charset=utf-8' . "\r\n"
-        .'From: ' . $visitor_email . "\r\n";
+        $headers  = "From: raymond.welgosh@gmail.com";
         
         if(mail("raymond.welgosh@gmail.com", $email_title, $email_body, $headers)) {
             echo "<p>Thank you for contacting us, $visitor_name. You will get a reply within 24 hours.</p>";
