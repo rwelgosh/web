@@ -18,6 +18,7 @@
 </head>
 <body>
     <div id='header' class='sticky'>
+        <a class='links' href='index.html'>Home</a>
         <a class='links' href="index.html#carousel">Projects</a>
         <a class='links' href="index.html#about">About Me</a>
         <a class='links' href="index.html#resume">Resume</a>

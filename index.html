@@ -27,8 +27,8 @@
         <!-- Top Section -->
         <div class='intro'>
             <div id='header' class='sticky'>
-                <a class='links' href="#carousel">Projects</a>
                 <a class='links' href="#about">About Me</a>
+                <a class='links' href="#carousel">Projects</a>
                 <a class='links' href="resume.html">Resume</a>
                 
                 <div class='rightSection'> 
@@ -131,25 +131,17 @@
         <div class='carousel' id='carousel'>
             <h1>Recent Projects</h1>
             <div class='proj-list'>
-                <div class='proj cur-proj'>
-                    <h2 class='proj-title-1'>Project 1</h2>
-                    <p>This is my description of the project.</p>
-                    <button>Take Me There</button>
+                <div class='proj cur-proj' id='proj_1'>
+                    
                 </div>
-                <div class='proj next-proj'>
-                    <h2>Project 2</h2>
-                    <p>This is my description of the project.</p>
-                    <button>Take Me There</button>
+                <div class='proj next-proj' id='proj_2'>
+                    
                 </div>
-                <div class='proj hid-proj'>
-                    <h2>Project 3</h2>
-                    <p>This is my description of the project.</p>
-                    <button>Take Me There</button>
+                <div class='proj hid-proj' id='proj_3'>
+                    
                 </div>
-                <div class='proj prev-proj'>
-                    <h2>Project 4</h2>
-                    <p>This is my description of the project.</p>
-                    <button>Take Me There</button>
+                <div class='proj prev-proj' id='proj_4'>
+                    
                 </div>
             </div>
             <div class='project-buttons'>
@@ -210,5 +202,6 @@
             firebase.initializeApp(firebaseConfig);
             firebase.analytics();
         </script>
+        <script type='text/javascript' src='read-projects-c.js'></script>
     </body>
  </html>

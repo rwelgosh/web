@@ -11,6 +11,7 @@ database.child("Projects").get().then((snapshot) => {
             title.appendChild(t);
             title.classList.add("proj-title");
             newProj.appendChild(title);
+            var proj_but = null;
             proj.forEach(function(child) {
                 console.log(child.key + ": " + child.val());
                 if(child.key == "Write up") {
@@ -25,9 +26,10 @@ database.child("Projects").get().then((snapshot) => {
                     var text = document.createTextNode("Github Repository");
                     repo.appendChild(text);
                     repo.classList.add("github-link");
-                    newProj.appendChild(repo);
+                    proj_but = repo;
                 }
             });
+            newProj.appendChild(proj_but);
             newProj.classList.add("proj-container");
             proj_ref.appendChild(newProj);
         });

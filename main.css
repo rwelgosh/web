@@ -198,6 +198,8 @@
     opacity: var(--opacity);
     transition: transform var(--proj-transition-duration) ease, opacity var(--proj-transition-duration) ease, z-index var(--proj-transition-duration) ease;
     user-select: none;
+    padding: 20px;
+    align-items: center;
 }
 
 .cur-proj {
@@ -299,4 +301,39 @@
     transform: translateX(-50%);
 }
 
+.github-link {
+    background-color: #313131;
+    font-size: 20px;
+    width: 35%;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.skills-used {
+    height: 50%;
+    width: 40%;
+}
+
+.proj p {
+    margin: 0 20%;
+}
+
+.skills {
+    width: 20%;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+.skills li {
+    float: left;
+}
 /* =================================================== */
